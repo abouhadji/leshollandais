@@ -1,0 +1,35 @@
+nav{
+    background: url(plo.jpg);
+}
+.container-fluid .list .izi {
+    align-content: flex-start;
+  }
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+}
+.monTexte {
+    font-size: 10px; 
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+  }
+.logo {
+    flex-grow: 1;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+}
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+}
